@@ -1,0 +1,4 @@
+[submodule "08-CMSIS/cmsis"]
+	path = 08-CMSIS/cmsis
+	url = https://github.com/yenWu/cmsis
+	branch = mbed-clear
