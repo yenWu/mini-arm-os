@@ -8,11 +8,11 @@ CFLAGS = -fno-common -ffreestanding -O0 -std=gnu99 \
 	 	 -mthumb 
 
 #devices vendor
-STM32 := STM32
+STM32 := stm32
 
 #Naming your devices
 STM32P103_DEVICE := p103
-STM32F429_DEVICE := f429disco
+STM32F429_DEVICE := f429
 
 #Device using Cortex-M4 CPU.Otherwise, treated as Cortex-M3(in uni_def)
 target_using_CM4_list := $(STM32F429_DEVICE)
